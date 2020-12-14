@@ -53,6 +53,7 @@ golem::use_favicon() # path = "path/to/ico". Can be an online file.
 golem::use_utils_ui()
 golem::use_utils_server()
 
+usethis::use_spell_check()
 rmarkdown::render("README.Rmd")
 
 # You're now set! ----

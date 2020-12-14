@@ -1,18 +1,38 @@
 Package: shinyfinance
+Type: Package
 Title: Shiny Finance
 Version: 0.0.0.9000
-Authors@R: person('Ron', 'o-o-o', email = 'author@mail.com', role = c('cre', 'aut'))
+Authors@R: person('Ron', 'o-o-o', email = 'author@gmail.com', role = c('cre', 'aut'))
 Description: Finance tools built into a reactive web application.
 License: MIT + file LICENSE
+Depends:
 Imports:
+    xml2,
+    ggplot2,
+    zoo,
+    xts,
+    dplyr,
+    BatchGetSymbols,
+    plotly,
+    scales,
+    RColorBrewer,
+    ggthemes,
+    tidyr,
+    purrr,
+    stringr,
+    lubridate,
+    glue,
+    DEoptim,
+    PerformanceAnalytics,
     config,
     golem,
     shiny,
     processx,
     attempt,
-    DT,
-    glue,
-    htmltools
+    htmltools,
+    shinydashboard,
+    shinyWidgets,
+    tidyquant
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
@@ -20,5 +40,7 @@ Suggests:
     testthat,
     knitr,
     rmarkdown,
-    rhub
+    rhub,
+    spelling
 VignetteBuilder: knitr
+Language: en-US
